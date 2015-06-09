@@ -1,0 +1,11 @@
+{
+  "name": "hopper_lab_part_4",
+  "version": "1.0.0",
+  "description": "part four of our lab",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "andrewhogue",
+  "license": "ISC"
+}
