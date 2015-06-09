@@ -4,6 +4,7 @@
     <style type="text/css">
       html, body, #map-canvas { height: 100%; margin: 0; padding: 0;}
     </style>
+     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <script type="text/javascript"
       src="https://maps.googleapis.com/maps/api/js">
     </script>
@@ -20,6 +21,14 @@
     </script>
   </head>
   <body>
-<div id="map-canvas"></div>
+  <div id="dropdown_container">
+  <h3>Pick A Feature To Change</h3>
+    <select id="drop_down_button" name='takeation'>
+    <option class='head'>FEATURES</option>
+    <option value='Action 1'>Roads Local</option>
+    <option value='Action 2'>Roads Aterial</option>
+    </select>
+  </div>
+    <div id="map-canvas"></div>
   </body>
 </html>
