@@ -1,5 +1,5 @@
-  .DS_Store
-  .tmp
-  node_modules/
-  npm-debug.log
-  bower_components/
+.DS_Store
+.tmp
+node_modules/
+npm-debug.log
+bower_components/
